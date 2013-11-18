@@ -10,11 +10,22 @@ It works with Ruby on Rails:
 [ruby website](http://rubyonrails.org/download)
 ---
 
-    cd /path/to/distributed/ass5
-    
-when in the ***ass5*** folder
+Install
+===
 
+    git clone https://github.com/chamini2/distributed.git a
+    cd a/ass5
     bundle install
-    rake db:migrate
-    rake db:seed
+    rake db:migrate; rake db:seed; rake spree_sample:load
+    
+A lot of output is going to come out.
+
+When asked:  
+  - Email:    *enter*
+  - Password: *enter*
+
+---
+    
     rails server
+
+Then go in your browser to http://0.0.0.0:3000/
